@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="kozinak",
-    version="0.6.0",
+    version="0.7.0",
     url="https://github.com/aleksejkozin/kozinak",
     license='MIT',
 
