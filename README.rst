@@ -5,26 +5,11 @@ kozinak
     :target: https://pypi.python.org/pypi/kozinak
     :alt: Latest PyPI version
 
-.. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
-   :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
+.. image:: https://travis-ci.org/aleksejkozin/kozinak.png
+   :target: https://travis-ci.org/aleksejkozin/kozinak
    :alt: Latest Travis CI build status
 
-Personal tools of Aleksey Kozin
-
-Usage
------
-
-Installation
-------------
-
-Requirements
-^^^^^^^^^^^^
-
-Compatibility
--------------
-
-Licence
--------
+My python tools
 
 Authors
 -------
