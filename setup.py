@@ -22,7 +22,7 @@ setup(
     author="Aleksey Kozin",
     author_email="cirnotoss@gmail.com",
 
-    description="Personal tools of Aleksey Kozin",
+    description="My python tools",
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),
