@@ -1,0 +1,69 @@
+{
+    "machine_info": {
+        "node": "alekseys-mbp",
+        "processor": "i386",
+        "machine": "x86_64",
+        "python_compiler": "Clang 4.0.1 (tags/RELEASE_401/final)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.7.0",
+        "python_version": "3.7.0",
+        "python_build": [
+            "default",
+            "Jun 28 2018 07:39:16"
+        ],
+        "release": "18.2.0",
+        "system": "Darwin",
+        "cpu": {
+            "vendor_id": "GenuineIntel",
+            "hardware": "unknown",
+            "brand": "Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz"
+        }
+    },
+    "commit_info": {
+        "id": "d2a12c0db1477f279bb071097670e5dd515522c3",
+        "time": "2018-12-02T18:48:22+03:00",
+        "author_time": "2018-12-02T18:48:22+03:00",
+        "dirty": true,
+        "project": "kozinak",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_wiki_dump_to_neo4j",
+            "fullname": "tests/test_wiki.py::test_wiki_dump_to_neo4j",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 5.499357636999999,
+                "max": 5.969747374999997,
+                "mean": 5.664038650999999,
+                "stddev": 0.18710177449322868,
+                "rounds": 5,
+                "median": 5.637568591000001,
+                "iqr": 0.2346947214999986,
+                "q1": 5.52136063525,
+                "q3": 5.756055356749998,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 5.499357636999999,
+                "hd15iqr": 5.969747374999997,
+                "ops": 0.17655246752658507,
+                "total": 28.320193254999996,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2019-01-06T08:18:18.778179",
+    "version": "3.1.1"
+}

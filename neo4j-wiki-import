@@ -1,0 +1,6 @@
+./bin/neo4j-admin import --ignore-duplicate-nodes=true --ignore-missing-nodes=true \
+    --nodes "/Users/alekseykozin/data/results/nodes-header.csv,/Users/alekseykozin/data/results/nodes.csv" \
+    --relationships "/Users/alekseykozin/data/results/relationships-header.csv,/Users/alekseykozin/data/results/relationships.csv"
+
+
+

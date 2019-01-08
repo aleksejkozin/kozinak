@@ -1,0 +1,69 @@
+{
+    "machine_info": {
+        "node": "alekseys-mbp",
+        "processor": "i386",
+        "machine": "x86_64",
+        "python_compiler": "Clang 4.0.1 (tags/RELEASE_401/final)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.7.2",
+        "python_version": "3.7.2",
+        "python_build": [
+            "default",
+            "Dec 29 2018 00:00:04"
+        ],
+        "release": "18.2.0",
+        "system": "Darwin",
+        "cpu": {
+            "vendor_id": "GenuineIntel",
+            "hardware": "unknown",
+            "brand": "Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz"
+        }
+    },
+    "commit_info": {
+        "id": "d2a12c0db1477f279bb071097670e5dd515522c3",
+        "time": "2018-12-02T18:48:22+03:00",
+        "author_time": "2018-12-02T18:48:22+03:00",
+        "dirty": true,
+        "project": "kozinak",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_wiki_dump_to_neo4j",
+            "fullname": "tests/test_wiki.py::test_wiki_dump_to_neo4j",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 8.384578879,
+                "max": 9.017254678,
+                "mean": 8.8351043768,
+                "stddev": 0.2662346340414944,
+                "rounds": 5,
+                "median": 8.961454839000005,
+                "iqr": 0.31304572275000275,
+                "q1": 8.698293891249998,
+                "q3": 9.011339614,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 8.384578879,
+                "hd15iqr": 9.017254678,
+                "ops": 0.11318485411738753,
+                "total": 44.175521884,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2019-01-08T09:03:50.180580",
+    "version": "3.1.1"
+}

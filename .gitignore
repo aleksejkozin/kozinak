@@ -35,3 +35,7 @@ nosetests.xml
 .project
 .pydevproject
 .pytest_cache
+
+prof
+.DS_Store
+.vscode
